@@ -19,7 +19,6 @@
     align-items: center;
 }
 
-
 .container .header h1 a {
     text-decoration: none;
     color: white;
@@ -46,52 +45,37 @@
     color: white;
 }
 
+.section {
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    overflow: hidden;
+}
 
-
-.container .hero{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    color:white;
+.section .search{
+    display: flex;
     text-align: center;
-    font-family:'Jura', sans-serif;
+    margin: 0 auto;
+    font-size: 50px;
+    border-style: none;    
+    border-bottom: 1px solid black;
+    color: gray;
+}
+
+section li{
+    list-style: none;
+    
 }
 
 
-.container .hero h2{
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-
-.container .hero p {
-    font-size: 22px;
-}
-
-.container .hero button{
-    background: none;
-    border: 2px solid white;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 20px;
-    margin-top: 30px;
-    outline: none;
-    cursor: pointer;
-    transition: all .4s;
-}
-
-
-.container .hero button:hover{
-    background-color: darkgray;
-}
-
-
-
-footer {
-  
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    background-color: gray;
-  
+.section .img{
+   width: 100%;
+   margin: 0 auto;
+   cursor: pointer;
+   line-height: 0;
+    letter-spacing: 0;
 }
